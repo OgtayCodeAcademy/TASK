@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend id="legend-pers-info">Personal Information</legend>
+            <div class="fullname">
+                <label for="fullname">Full Name:</label>
+                <input id="fullname" name="fullname" type="text" required minlength="3">
+            </div>
+
+            <div class="email">
+                <label for="email">Email Address:</label>
+                <input value="support@example.com" id="email" name="email" type="email" required>
+            </div>
+
+            <div class="phone">
+                <label for="phone">Phone Number:</label>
+                <input id="phone" name="phone" type="number">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Event Details</legend>
+            <div class="event-name">
+                <label for="event-name">Event Name:</label>
+                <input type="text" id="event-name" name="event-name">
+            </div>
+
+            <div class="event-date">
+                <label for="event-date">Event Date:</label>
+                <input type="date" name="event-date" id="event-date">
+            </div>
+
+            <div class="event-location">
+                <label for=".event-location">Event Location:</label>
+                <input type="text" name=".event-location" id=".event-location">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ticket Selection</legend>
+            <div class="choose-ticket">
+                <caption>Choose ticket type:</caption><br>
+                <label for="standard">Standard</label>
+                <input value="standard" type="radio" name="ticket" id="standard"><br>
+                <label for="vip">VIP</label>
+                <input value="vip" type="radio" name="ticket" id="vip">
+            </div>
+
+            <div class="socialmedias">
+                <li><a href="https://www.google.com">Social link</a></li>
+                <li><a href="https://www.codeacademy.com">Social link</a></li>
+                <li><a href="https://az.linkedin.com/">Social link</a></li>
+            </div>
+
+            <div class="quantity">
+                <label for="quantity">Quantity:</label>
+                <input type="text" name="quantity" id="quantity">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dietary Preferences</legend>
+            <div class="preference">
+                <caption>Do you have any dietary preferences?</caption><br>
+                <input type="checkbox" name="preference1" id="Vegetarian">
+                <label for="Vegetarian">Vegetarian</label><br>
+                <input type="checkbox" name="preference2" id="Vegan">
+                <label for="Vegan">Vegan</label><br>
+                <input type="checkbox" name="preference1" id="Gluten-Free">
+                <label for="Gluten-Free">Gluten-Free</label>
+            </div>
+        </fieldset>
+
+        <div class="comments">
+            <label for="additional">Additional Comments:</label><br>
+            <textarea name="additional" id="additional" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="agreement">
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree">I agree to the terms and conditions</label>
+        </div>
+
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+
+
+
+    </form>
+
+</body>
+
+</html>

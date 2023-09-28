@@ -1,0 +1,29 @@
+#legend-pers-info{
+    color: coral;
+}
+[name="fullname"]:focus{
+    background-color: blueviolet;
+} 
+[name="phone"]{
+    color: rgb(100, 1, 104);
+}
+.comments:hover{
+    color: burlywood;
+}
+.choose-ticket::marker{
+    color: crimson;
+}
+#email:valid{
+    background-color: green;
+}
+[name="ticket"]:checked{
+    height: 30px;
+    width: 30px;
+} 
+a:visited{
+    color: crimson;
+}
+li::marker{
+    color: aquamarine;
+}
+
